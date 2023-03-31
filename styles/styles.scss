@@ -433,15 +433,15 @@ section {
                     }
 
                     .react {
-                        width: 60%;
+                        width: 70%;
                     }
 
                     .python {
                         width: 70%;
                     }
 
-                    .php {
-                        width: 0%;
+                    .ruby {
+                        width: 70%;
                     }
                 }
             }
@@ -547,10 +547,11 @@ section {
         position: relative;
 
         img {
-            width: 100%;
-            height: 300px;
+            max-height: 100%;
+            max-width: 100%;
             object-fit: cover;
             border-radius: 15px;
+
         }
 
         .hoverItems {

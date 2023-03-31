@@ -79,16 +79,7 @@ section {
 
 .active {
   display: block;
-  -webkit-animation: scaleAnim 1s ease-in-out;
-          animation: scaleAnim 1s ease-in-out;
-}
-@-webkit-keyframes scaleAnim {
-  0% {
-    transform: translateY(-100%) scaleY(0);
-  }
-  100% {
-    transform: translateY(0) scaleY(1);
-  }
+  animation: scaleAnim 1s ease-in-out;
 }
 @keyframes scaleAnim {
   0% {
@@ -372,13 +363,13 @@ section {
   width: 70%;
 }
 .aboutSkills .progressBars .progressBar .progressContainer .progress .react {
-  width: 60%;
+  width: 70%;
 }
 .aboutSkills .progressBars .progressBar .progressContainer .progress .python {
   width: 70%;
 }
-.aboutSkills .progressBars .progressBar .progressContainer .progress .php {
-  width: 0%;
+.aboutSkills .progressBars .progressBar .progressContainer .progress .ruby {
+  width: 70%;
 }
 
 .skillTitle {
@@ -461,8 +452,8 @@ section {
   position: relative;
 }
 .portfolios .portItem img {
-  width: 100%;
-  height: 300px;
+  max-height: 100%;
+  max-width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 15px;
