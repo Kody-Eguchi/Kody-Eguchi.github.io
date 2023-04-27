@@ -495,6 +495,7 @@ section {
   margin: 0 1rem;
   cursor: pointer;
   transition: all 0.4s ease-in-out;
+  text-decoration: none;
 }
 .portfolios .portItem .hoverItems .icons .icon i {
   font-size: 1.5rem;
@@ -506,6 +507,17 @@ section {
 }
 .portfolios .portItem .hoverItems .icons .icon:hover i {
   color: var(--color-primary);
+}
+.portfolios .portItem .hoverItems .devi-icons {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 5px;
+  justify-content: center;
+}
+.portfolios .portItem .hoverItems .devi-icons i {
+  font-size: 2.3rem;
 }
 
 .portItem:hover .hoverItems {

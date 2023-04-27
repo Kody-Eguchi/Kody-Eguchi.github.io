@@ -592,6 +592,7 @@ section {
                     margin: 0 1rem;
                     cursor: pointer;
                     transition: all .4s ease-in-out;
+                    text-decoration: none;
 
                     i {
                         font-size: 1.5rem;
@@ -606,6 +607,21 @@ section {
                             color: var(--color-primary);
                         }
                     }
+                }
+
+
+            }
+
+            .devi-icons {
+                margin-top: 1.5rem;
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                gap: 5px;
+                justify-content: center;
+
+                i {
+                    font-size: 2.3rem;
                 }
             }
         }
